@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cz.fel.cvut.androidapp.FragmentActivity">
+
+    <fragment
+        android:id="@+id/topFragmentAF"
+        android:name="cz.fel.cvut.androidapp.TopFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        tools:layout="@layout/top_fragment" />
+
+    <fragment
+        android:id="@+id/bottomFragmentAF"
+        android:name="cz.fel.cvut.androidapp.BottomFragment"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        tools:layout="@layout/bottom_fragment" />
+</android.widget.RelativeLayout>

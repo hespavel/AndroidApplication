@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="buttonText">Click me</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="textToChange">TextView</string>
+    <string name="changeButton">change button</string>
+    <string name="actionText" />
+    <string name="topText">Rich</string>
+    <string name="middleText">Piana</string>
+    <string name="title_damnitem_list">DamnItems</string>
+    <string name="title_damnitem_detail">DamnItem Detail</string>
+</resources>
